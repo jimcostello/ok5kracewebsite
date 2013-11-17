@@ -1,0 +1,14 @@
+name = Responsive Bartik ok5k
+description = Sub theme for OK5k Website based on Responsive Bartik.
+version = VERSION
+core = 7.x
+base theme = Responsive Bartik
+
+; colors.css is not inherited from base theme, so you need to copy it over
+; you must declare at least one stylesheet to inherit all the others
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colors.css
+
+
+
+
